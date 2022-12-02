@@ -1,4 +1,4 @@
-# ExamenI-Front-DigitalHouse
+# Examen Front para DigitalHouse
 ## El reto
 
 Su desafío es crear esta página de destino y hacer que se parezca lo más posible al diseño.
