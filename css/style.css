@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;  
+    padding:10px;
+    
+        
+}
+
+.logo img{
+    max-width: 7rem;
+    
+}
+
+.menu li{
+    font-size: 13px;
+    line-height: 19px;
+    list-style: none; 
+    display:inline;
+    
+   
+}
+.menu li a{
+    text-decoration: none;
+    color: #242E52;
+    padding: 0 1rem;
+}
+.menu li a:hover{
+    opacity: 0.6;
+}
+
+
+
+.botones{
+    
+    padding: 10px;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: #8b48bf;
+    color: #ffffff;
+    border: solid 1px #8b48bf;
+    transition: all 1s ease;
+   
+}
+.botones:hover{
+    background-color: #ffffff;
+    color: #8b48bf;
+}
+
+/* Part Principal */
+
+.card-principal{
+    
+    width: 75%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+   
+    
+}
+.card-principal img{
+    width: auto;
+    
+}
+.info-principal{
+    
+    text-align: right;
+    color: #232C50;
+
+}
+.info-principal h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.info-principal p{
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+
+
+/* Part between-pros */
+
+.card-between-pros{
+    background: #8B48BF;
+    color: #FFFFFF;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top:80px;
+    padding: 40px 14%;
+}
+                                       
+
+.card-between-pros p{
+    font-size: 16px;
+    padding-left:50px;
+    width: 100%;         
+}
+
+.card-between-pros h2{
+    font-size: 30px;
+    padding-right: 50px; 
+    width:100%; 
+    
+}
+
+/* Part card-1-2-3 */
+
+.section1{
+    background: #FAFAFA;
+}
+
+.card-1-2-3{
+    display: flex;
+    width:75%;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin:auto;
+    padding-top: 30px;
+
+}
+
+.cardtrack{
+    width: 50%;
+    padding: 20px;
+    
+    
+}
+.card-header{
+    display:flex;
+    align-items: center;
+}
+
+.cardtrack-header-text{
+    padding-left: 2rem;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.015em;
+}
+.cardtrack-text{
+    margin-left: 87px;
+    letter-spacing: -0.01em;
+    color: #B3B2B7;
+    font-size: 14px;
+    margin-top: 20px;
+    
+}
+
+.numerospan{
+    color:#FFFFFF;
+    border-style:none;
+    border-radius: 30px;
+    background-color: #8B48BF;
+    padding: 10px 25px;
+    margin-right:20px;
+
+}
+
+
+
+/* Part Best of the Month*/
+.bestofthemonth{
+    
+    height: 600px;
+    text-align: center;
+}
+
+.bestofthemonth h3{
+    color: #242E53;
+    font-weight: 700;
+    font-size: 30px;
+    Margin: 80px;
+}
+
+.expirence-personal{
+    
+    display: flex;
+    justify-content:center;
+    width:90%;
+    margin:auto;
+    
+}
+.card-imags{
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    background: #FAFAFA;
+
+}
+.card-imags img{
+   margin-top: -36px;
+}
+
+.expirence-personal p{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9C1;
+    line-height: 130.6%;
+    margin:20px;
+
+}
+.expirence-personal h3{
+    font-weight: 700;
+    font-size: 16.0714px;
+    color: #242E53;
+    margin: 20px;
+    letter-spacing: -0.01em;
+    line-height: 156.6%;
+}
+.bestofthemonth button{
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 160px;;
+}
+
+
+
+/* Part Go for it*/
+.goforit{
+    background: #8B48BF;
+    padding-top:50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.getteam{
+  
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    width: 30%;
+}
+
+.btngoforit{
+    font-weight: 500;
+    background: #FFFFFF;
+    color: #8B48BF;
+    transition: all 1s ease;
+    
+    
+}
+
+.btngoforit:hover{
+    background-color: #1E1E26;
+    cursor:pointer;
+}
+
+
+
+/* footer */
+footer{
+    border:1px solid black;
+    height: 247px;
+    background: #1E1E26;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.div-footer1{
+    margin-top: 50px;
+    width: 33%;
+    padding-left:30px;
+    
+    
+}
+.div-footer1 img{
+    
+    margin: 10px;
+    
+    
+}
+#logo-inferior{
+    padding-left: 22%;
+}
+.div-footer1 p{
+    padding-top: 40px;
+    color: #8C8C94;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    text-align: center;
+}
+    
+.div-footer2{
+    margin-top: 50px;
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.div-footer2 li{
+    list-style:none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.div-footer3{
+    margin-top: 50px;
+    width: 33%;
+    
+    
+}
+.div-footer3 form{
+    margin: 10px;
+    padding-left:40px;
+}
+
+.div-footer3 input{
+    width: 200px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border-style: hidden;
+    text-indent:10px;
+    
+    
+}
+.div-footer3 button{
+    
+    width: 63px;
+    height: 42px;
+}
+
+.div-footer3 p{
+    margin-top: 90px;
+    color: #8C8C94;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    .ocultar{
+        display:none !important;
+    }
+    .card-principal{
+        flex-direction: column;
+        width:100%;
+        padding:40px;
+    }
+    .card-principal img{
+        width:100%;
+        margin-bottom:50px;
+    }
+    .card-between-pros{
+        display:block;
+        background-color: #3CDDF3;
+        padding: 40px 20px;
+    }
+    .card-between-pros h2{
+        padding:0;
+       
+    }
+    .card-between-pros p{
+        padding:0;
+        
+    }
+    .card-1-2-3{
+        width:100%;
+    }
+    .section1{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width:100%;
+        
+    }
+    .cardtrack{
+        width: 100%;
+        padding: 10px;
+    }
+    .card-header{
+        background-color: rgba(139,72,191,0.3);
+        border-radius: 50px 0px 0px 50px;
+    }
+    .cardtrack-text{
+        margin-left: 0px;
+        margin-top: 20px;
+        padding-right: 30px;;
+    }
+    .goforit{
+        background-color: #3CDDF3;
+        display: block;
+        text-align: center;
+
+    }
+    .btngoforit{
+        background-color: #232C50;
+        color: #fff;
+        margin-top: 50px;
+    }
+    .getteam{
+        width: 100%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    footer{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 40px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-footer1, .div-footer2, .div-footer3{
+        width: 100%;
+        text-align: center;
+    }
+    #logo-inferior{
+        padding-left: 0;
+    }
+    .div-footer3 input{
+        width: 70%;
+    }
+    .div-footer2 {
+        width: 80%;
+        
+    } 
+    .div-footer1{
+        padding-right: 40px;
+    }
+    
+
+
+
+
+}
+
+@media screen and (min-width: 481px) {
+    .hidden {
+      display: none !important;
+    }
+  }
